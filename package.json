@@ -1,0 +1,19 @@
+{
+  "name": "shark-hh",
+  "version": "0.0.0",
+  "description": "contractshark hardhat wrapper for CI",
+  "bin": "wrapper/bin.js",
+  "files": [
+    "wrapper"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSES",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/exec": "^1.0.4",
+    "@actions/github": "^4.0.0"
+  }
+}

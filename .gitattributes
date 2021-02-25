@@ -1,0 +1,6 @@
+git_ssh text eol=lf
+repo text eol=lf
+hooks/* text eol=lf
+/CHANGELOG.md		merge=union
+package-lock.json merge=npm-merge-driver
+*.sh text eol=lf
