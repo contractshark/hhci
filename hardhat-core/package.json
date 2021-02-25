@@ -36,7 +36,9 @@
     "lint": "wsrun --exclude-missing --serial lint",
     "lint:fix": "wsrun --exclude-missing --stages lint:fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@garment/cli": "^0.14.4"
+  },
   "resolutions": {
     "**/antlr4": "4.7.1"
   }

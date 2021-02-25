@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { spawnSync } from "child_process";
+import chalk from "chalk";
 
 export async function main() {
   let pathToHardhat;
@@ -35,3 +36,8 @@ main()
     console.error(error);
     process.exit(1);
   });
+function logSuccess(msg: string) {
+  console.log(chalk.green(msg));
+}
+
+logSuccess("ContractShark HardHat CI Loaded");

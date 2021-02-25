@@ -1,0 +1,16 @@
+{
+  "name": "shark-cli",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "import-jsx": "^4.0.0",
+    "ink": "^3.0.8",
+    "react": "^17.0.1"
+  }
+}

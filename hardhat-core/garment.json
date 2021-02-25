@@ -1,0 +1,55 @@
+{
+  "$schema": "./node_modules/@garment/workspace/schemas/config.schema.json",
+  "presets": {},
+  "projects": {
+    "common": {
+      "path": "packages/common"
+    },
+    "e2e": {
+      "path": "packages/e2e"
+    },
+    "hardhat-core": {
+      "path": "packages/hardhat-core"
+    },
+    "hardhat-docker": {
+      "path": "packages/hardhat-docker"
+    },
+    "hardhat-ethers": {
+      "path": "packages/hardhat-ethers"
+    },
+    "hardhat-etherscan": {
+      "path": "packages/hardhat-etherscan"
+    },
+    "hardhat-ganache": {
+      "path": "packages/hardhat-ganache"
+    },
+    "hardhat-shorthand": {
+      "path": "packages/hardhat-shorthand"
+    },
+    "hardhat-solhint": {
+      "path": "packages/hardhat-solhint"
+    },
+    "hardhat-solpp": {
+      "path": "packages/hardhat-solpp"
+    },
+    "hardhat-truffle4": {
+      "path": "packages/hardhat-truffle4"
+    },
+    "hardhat-truffle5": {
+      "path": "packages/hardhat-truffle5"
+    },
+    "hardhat-vyper": {
+      "path": "packages/hardhat-vyper"
+    },
+    "hardhat-waffle": {
+      "path": "packages/hardhat-waffle"
+    },
+    "hardhat-web3-legacy": {
+      "path": "packages/hardhat-web3-legacy"
+    },
+    "hardhat-web3": {
+      "path": "packages/hardhat-web3"
+    }
+  },
+  "schematics": []
+}
