@@ -1,4 +1,3 @@
-
 /**
  * @file File that GitHub runs as the GitHub Action.
  * @summary GitHub Action
